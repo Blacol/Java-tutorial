@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-09-19T07:00:52.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="vW7cTZQ99Rc1_Dc_--vE" version="21.7.4" type="device">
+  <diagram name="第 1 页" id="ZJbspc9-_AIFN5w1cXu9">
+    <mxGraphModel dx="937" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="luPE3-3N4MpEArsMBmXl-3" value="Java内存模型" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="480" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-4" value="栈1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-3">
+          <mxGeometry x="20" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-2" value="方法1：&lt;br&gt;变量1&lt;br&gt;变量2..." style="whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-4">
+          <mxGeometry x="20" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-6" value="方法2：&lt;br&gt;变量1&lt;br&gt;变量2..." style="whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-4">
+          <mxGeometry x="20" y="110" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-5" value="栈2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-3">
+          <mxGeometry x="250" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-7" value="方法3：&lt;br&gt;变量1&lt;br&gt;变量2..." style="whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-5">
+          <mxGeometry x="20" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-8" value="方法4：&lt;br&gt;变量1&lt;br&gt;变量2..." style="whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-5">
+          <mxGeometry x="20" y="110" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-9" value="堆" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-3">
+          <mxGeometry x="20" y="260" width="430" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-10" value="对象1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-9">
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-11" value="对象2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-9">
+          <mxGeometry x="140" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-12" value="对象3..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-9">
+          <mxGeometry x="270" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-13" value="JVM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-14" value="方法区&lt;br&gt;&lt;font color=&quot;#ff031c&quot;&gt;（元数据区）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-13">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-15" value="堆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-13">
+          <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-16" value="虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-13">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-17" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-13">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-18" value="虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="luPE3-3N4MpEArsMBmXl-13">
+          <mxGeometry x="190" y="110" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.175;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="luPE3-3N4MpEArsMBmXl-19" target="luPE3-3N4MpEArsMBmXl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-19" value="类加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luPE3-3N4MpEArsMBmXl-20" target="luPE3-3N4MpEArsMBmXl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luPE3-3N4MpEArsMBmXl-20" value="class文件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
