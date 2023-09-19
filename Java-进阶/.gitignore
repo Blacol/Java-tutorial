@@ -15,6 +15,6 @@ __pycache__/transfer.cpython-311.pyc
 pdf/*
 Java基础——实践手册/实践项目/
 mysql-connector-j-8.1.0
-.$Java基础.drawio.bkp
-*.zip
+*.drawio.bkp
 *.drawio
+*.zip
